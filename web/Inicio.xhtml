@@ -1,13 +1,33 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:h="http://xmlns.jcp.org/jsf/html">
-    <h:head>
-        <title>Facelet Title</title>
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head >
+        <title>Gestor XYZ</title>
+        <link rel="stylesheet" href="Estilos.css"/>
+        <link rel="icon" href="Icon.png" sizes="32x32"/>
     </h:head>
-    <h:body>
-        Hello from Facelets
-        <br />
+    <h:body class="fondo">
+        <h:form> 
+            <div id="principal">
+                <br/><h1 id="h1" class="titulo" align="center">SISTEMA GESTOR DE VENTAS</h1>
+                <div align="center" id="div">
+                    <b><p:outputLabel class="Acces" value="INGRESAR DATOS"/></b>
+                    <br></br>
+                    <div><br></br>
+                        <img src="Login.png" width="40%"/> 
+                    </div>
+                    <p:inputText id="txtuser" placeholder="Usuario" class="bordetxt" required="true"/>     
+                    <p:password id="pass" placeholder="Contraseña" class="bordetxt" required="true"/>
+                    <h:message for="txtuser"/>
+                    <h:message for="pass"/>
+                    <h:commandButton value="Aceptar" class="boton" action="Nivel1.xhtml"/>
+                </div>
+            </div>          
+        </h:form>
     </h:body>
 </html>
 

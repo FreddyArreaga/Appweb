@@ -1,0 +1,49 @@
+.fondo{
+    background: url(fondo.jpg);
+    background-size: cover;
+}
+#h1{
+    color:white;
+}
+.Acces{
+    color:red;
+    font-style:oblique;
+    font-size: 25px;
+}
+.titulo{
+    background-color: gray;
+    opacity: .80;
+    margin: 20px auto 0px auto;
+    height: 50px;
+    width: 600px;
+}
+#principal{
+    margin: 20px auto 0px auto;
+    height: 650px;
+    width: 1300px;
+}
+#div{
+    margin-top: 80px;
+    width: auto;
+    background-color: beige;
+    border-width: 500px;
+    padding: 50px 44px 0;
+    border-height: 320px;
+    margin-left:70px;
+    height: 350px;
+    max-width: 270px;
+    border-radius: 0px 70px;
+}
+.bordetxt{
+    margin-top: 20px;
+}
+.boton{
+    margin-top: 40px;
+    border-radius: 15px;
+    background-color: gold;
+    color:white;
+    font-weight: bold;
+    font-size: 17px;
+    height: 35px;
+    width: 95px;
+}
